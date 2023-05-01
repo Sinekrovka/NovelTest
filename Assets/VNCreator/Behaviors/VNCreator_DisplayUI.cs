@@ -34,6 +34,8 @@ namespace VNCreator
         [Scene]
         public string mainMenu;
 
+        [SerializeField] private bool _isSecondCharacter;
+
         void Start()
         {
             nextBtn.onClick.AddListener(delegate { NextNode(0); });
@@ -51,13 +53,16 @@ namespace VNCreator
             if(choiceBtn3 != null)
                 choiceBtn3.onClick.AddListener(delegate { NextNode(2); });
 
-            endScreen.SetActive(false);
+            if (!_isSecondCharacter)
+            {
+                endScreen.SetActive(false);
+            }
             LoadNode(); 
         }
 
         protected override void NextNode(int _choiceId)
         {
-            if (lastNode)
+            if (lastNode && !_isSecondCharacter)
             {
                 endScreen.SetActive(true);
                 return;
@@ -69,12 +74,16 @@ namespace VNCreator
 
         private void LoadNode()
         {
-            ParseCharacterName();
             ParseCharacterSprite();
-            ParseBackgroundSprite();
-            ParseButtons();
-            ParseSounds();
-            StartCoroutine(ParseDialogue());
+            
+            if (!_isSecondCharacter)
+            {
+                ParseCharacterName();
+                ParseBackgroundSprite();
+                ParseSounds();
+                ParseButtons();
+                StartCoroutine(ParseDialogue());
+            }
         }
 
         #region ParseNode
@@ -170,7 +179,10 @@ namespace VNCreator
         protected override void Previous()
         {
             base.Previous();
-            StartCoroutine(ParseDialogue());
+            if (!_isSecondCharacter)
+            {
+                LoadNode();
+            }
         }
 
         void ExitGame()

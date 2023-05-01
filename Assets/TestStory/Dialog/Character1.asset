@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: Character1
+  m_EditorClassIdentifier: 
+  links:
+  - guid: 7db642bd-3fc4-4e77-8174-5e980eac7965
+    targetGuid: 7d629845-37b1-4de9-9939-0542d25e4b84
+    portId: 0
+  - guid: 7d629845-37b1-4de9-9939-0542d25e4b84
+    targetGuid: f33c088a-1c62-4295-8df8-ddf99c2bcf42
+    portId: 1
+  - guid: f33c088a-1c62-4295-8df8-ddf99c2bcf42
+    targetGuid: a4eff97d-a513-40fc-a948-cd82ef5779d5
+    portId: 2
+  nodes:
+  - guid: 7db642bd-3fc4-4e77-8174-5e980eac7965
+    characterSpr: {fileID: 21300000, guid: 4cd54e40be509eb44b31b3c41eecb18c, type: 3}
+    characterPositionOnScreen: {x: 0, y: 0}
+    characterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 1"
+    dialogueText: "\u0411\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430"
+    characterMovement:
+      active: 0
+      movementDirection: {x: 0, y: 0}
+      timeSecondEffect: 0
+      typeMovement: 0
+    characterFade:
+      active: 0
+      timeSecondsEffect: 0
+    characterColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundSpr: {fileID: 21300000, guid: 6d92ba4c63c93654aa08174c3a4df9b2, type: 3}
+    backgroundColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundfade:
+      active: 0
+      timeSecondsEffect: 0
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: e1a786e68077c47e7b3145f7f34664cf, type: 3}
+    choiceOptions:
+    - 
+    startNode: 1
+    endNode: 0
+    choices: 1
+    nodePosition:
+      serializedVersion: 2
+      x: -803
+      y: -394
+      width: 540
+      height: 923
+  - guid: 7d629845-37b1-4de9-9939-0542d25e4b84
+    characterSpr: {fileID: 21300000, guid: 4cd54e40be509eb44b31b3c41eecb18c, type: 3}
+    characterPositionOnScreen: {x: 0, y: 0}
+    characterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 2"
+    dialogueText: '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+    characterMovement:
+      active: 0
+      movementDirection: {x: 0, y: 0}
+      timeSecondEffect: 0
+      typeMovement: 0
+    characterFade:
+      active: 0
+      timeSecondsEffect: 0
+    characterColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundSpr: {fileID: 0}
+    backgroundColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundfade:
+      active: 0
+      timeSecondsEffect: 0
+    soundEffect: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
+    backgroundMusic: {fileID: 0}
+    choiceOptions:
+    - 
+    startNode: 0
+    endNode: 0
+    choices: 1
+    nodePosition:
+      serializedVersion: 2
+      x: -117
+      y: -394
+      width: 540
+      height: 923
+  - guid: f33c088a-1c62-4295-8df8-ddf99c2bcf42
+    characterSpr: {fileID: 21300000, guid: 4cd54e40be509eb44b31b3c41eecb18c, type: 3}
+    characterPositionOnScreen: {x: 0, y: 0}
+    characterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 1"
+    dialogueText: "\u0411\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430\u0431\u043B\u0430"
+    characterMovement:
+      active: 0
+      movementDirection: {x: 0, y: 0}
+      timeSecondEffect: 0
+      typeMovement: 0
+    characterFade:
+      active: 0
+      timeSecondsEffect: 0
+    characterColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundSpr: {fileID: 0}
+    backgroundColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundfade:
+      active: 0
+      timeSecondsEffect: 0
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    choiceOptions:
+    - 
+    startNode: 0
+    endNode: 0
+    choices: 1
+    nodePosition:
+      serializedVersion: 2
+      x: 564
+      y: -394
+      width: 540
+      height: 923
+  - guid: a4eff97d-a513-40fc-a948-cd82ef5779d5
+    characterSpr: {fileID: 21300000, guid: 4cd54e40be509eb44b31b3c41eecb18c, type: 3}
+    characterPositionOnScreen: {x: 0, y: 0}
+    characterName: 
+    dialogueText: 
+    characterMovement:
+      active: 0
+      movementDirection: {x: 0, y: 0}
+      timeSecondEffect: 0
+      typeMovement: 0
+    characterFade:
+      active: 1
+      timeSecondsEffect: 0.5
+    characterColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundSpr: {fileID: 0}
+    backgroundColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundfade:
+      active: 0
+      timeSecondsEffect: 0
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    choiceOptions:
+    - 
+    startNode: 0
+    endNode: 0
+    choices: 1
+    nodePosition:
+      serializedVersion: 2
+      x: 1286
+      y: -394
+      width: 540
+      height: 923
