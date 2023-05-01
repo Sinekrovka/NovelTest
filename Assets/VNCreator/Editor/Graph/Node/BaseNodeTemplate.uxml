@@ -1,0 +1,78 @@
+﻿<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements">
+              	<engine:VisualElement class="row">
+              		<engine:VisualElement>
+              			<engine:Label text="Character sprite:" class="min_header"/>
+              			<engine:VisualElement name="Char_Img" class="char_img">
+              				<editor:ObjectField name="Icon_Selection" class="char_selector" allow-scene-objects="false"/>
+              			</engine:VisualElement>
+              			<engine:VisualElement>
+                            <engine:Label text="Character Position on Screen" class="min_header"/>
+                            <editor:Vector2Field name="Char_Position" class="char_position_XY"/>
+                        </engine:VisualElement>
+                        <engine:VisualElement>
+                            <engine:Label text="Character Color Effect" class="min_header"/>
+                            <engine:Foldout>
+                                <engine:Label text="Effect Active" class="effect_color_active"/>
+                                <engine:Toggle name="Char_Color_Active" class="char_color_active"/>
+                                <editor:ColorField name="Char_Color" class="char_color"/>
+                                <engine:Label text="Time spend Effect" class="time_spend_effect_color"/>
+                                <editor:FloatField name="Color_Time" class="char_color_time"/>
+                            </engine:Foldout>
+                        </engine:VisualElement>
+						<engine:VisualElement>
+                            <engine:Label text="Character Movement Effect" class="min_header"/>
+                            <engine:Foldout>
+                                <engine:Label text="Effect Active" class="effect_mov_active"/>
+                                <engine:Toggle name="Char_Movement_Active" class="char_mov_active"/>
+								<engine:Label text="Movement Direction" class="effect_mov_active"/>
+                                <editor:Vector2Field name="Char_Movement_Direction" class="char_mov"/>
+                                <engine:Label text="Time spend Effect" class="time_spend_effect_mov"/>
+                                <editor:FloatField name="Movement_Time" class="char_mov_time"/>
+								<engine:Label text="Type Movement" class="time_spend_effect_mov"/>
+								<editor:EnumField name="Movement_Type" class="char_mov_type"/>
+                            </engine:Foldout>
+                        </engine:VisualElement>
+						<engine:VisualElement>
+                            <engine:Label text="Character Fade Effect" class="min_header"/>
+                            <engine:Foldout>
+                                <engine:Label text="Effect Active" class="effect_fade_active"/>
+                                <engine:Toggle name="Char_Fade_Active" class="char_fade_active"/>
+                                <engine:Label text="Time spend Effect" class="time_spend_effect_fade"/>
+                                <editor:FloatField name="Char_Fade_Time" class="char_fade_time"/>
+                            </engine:Foldout>
+                        </engine:VisualElement>
+              			<engine:Label text="Background sprite:" class="min_header"/>
+              			<engine:VisualElement name="Back_Img" class="back_img">
+              				<editor:ObjectField name="Back_Selector" class="char_selector" allow-scene-objects="false"/>
+              			</engine:VisualElement>
+              			<engine:VisualElement>
+              			    <engine:Label text="Background Color Effect" class="min_header"/>
+              			    <engine:Foldout>
+              			        <engine:Label text="Effect Active" class="effect_color_active_back"/>
+              			        <engine:Toggle name="Back_Color_Active" class="back_color_active"/>
+              			        <editor:ColorField name="Back_Color" class="back_color"/>
+              			        <engine:Label text="Time spend Effect" class="time_spend_effect_color_back"/>
+              			        <editor:FloatField name="Back_Time" class="back_color_time"/>
+              			    </engine:Foldout>
+              			</engine:VisualElement>
+              			<engine:VisualElement>
+              			    <engine:Label text="Background Fade Effect" class="min_header"/>
+              			    <engine:Foldout>
+              			        <engine:Label text="Effect Active" class="effect_fade_active_back"/>
+              			        <engine:Toggle name="Back_Fade_Active" class="back_fade_active"/>
+              			        <editor:FloatField name="Back_Fade_Time" class="back_fade_time"/>
+              			    </engine:Foldout>
+                        </engine:VisualElement>
+              		</engine:VisualElement>
+              		<engine:VisualElement>
+              			<engine:Label text="Character Name" class="min_header"/>
+              			<engine:TextField name="Char_Name" class="char_name"/>
+              			<engine:Label text="Dialogue" class="min_header"/>
+              			<engine:TextField name="Dialogue_Field" class="dialogue_field"/>
+              			<engine:Label text="Sound Effect" class="min_header"/>
+              			<editor:ObjectField name="Sound_Field" class="sound_selector"/>
+              			<engine:Label text="Background Music" class="min_header"/>
+              			<editor:ObjectField name="Music_Field" class="music_selector"/>
+              		</engine:VisualElement>
+              	</engine:VisualElement>
+              </engine:UXML>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\sinek\Projects\Novel 2" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Imgs" t="Include" />
+              </e>
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModuleEPOOutline.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include" />
+          </e>
+        </e>
+        <e p="Resources" t="Include" />
+        <e p="Scenes" t="Include" />
+        <e p="VNCreator" t="Include">
+          <e p="_Demo" t="Include">
+            <e p="Audio" t="Include">
+              <e p="SFX" t="Include" />
+            </e>
+            <e p="Scenes" t="Include" />
+            <e p="Sprites" t="Include">
+              <e p="Backgrounds" t="Include" />
+              <e p="Characters" t="Include" />
+            </e>
+          </e>
+          <e p="Behaviors" t="Include">
+            <e p="Effector.cs" t="Include" />
+            <e p="VNCreator_DisplayUI.cs" t="Include" />
+            <e p="VNCreator_EndScreen.cs" t="Include" />
+            <e p="VNCreator_MainMenu.cs" t="Include" />
+            <e p="VNCreator_MusicSource.cs" t="Include" />
+            <e p="VNCreator_OptionsMenu.cs" t="Include" />
+            <e p="VNCreator_SfxSource.cs" t="Include" />
+          </e>
+          <e p="Data" t="Include">
+            <e p="GameOptions.cs" t="Include" />
+            <e p="GameSaveManager.cs" t="Include" />
+            <e p="Link.cs" t="Include" />
+            <e p="NodeData.cs" t="Include" />
+            <e p="SaveUtility.cs" t="Include" />
+            <e p="StoryObject.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="Graph" t="Include">
+              <e p="ExtendedGraphView.cs" t="Include" />
+              <e p="Node" t="Include">
+                <e p="BaseNode.cs" t="Include" />
+                <e p="BaseNodeStyle.uss" t="Include" />
+                <e p="BaseNodeTemplate.uxml" t="Include" />
+              </e>
+            </e>
+            <e p="ScenePropertyDrawer.cs" t="Include" />
+            <e p="Windows" t="Include">
+              <e p="StoryObjectEditor.cs" t="Include" />
+              <e p="StoryObjectEditorWindow.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Misc" t="Include">
+            <e p="Attributes.cs" t="Include" />
+            <e p="DisplayBase.cs" t="Include" />
+          </e>
+          <e p="VNCreator.asmdef" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="Novel 2.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+      </e>
+      <e p="VNCreator.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="E:\Users\sine\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="E:\Users\sine\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Novel 2.745526953.00" t="ExcludeRecursive" />
+  </component>
+</project>
