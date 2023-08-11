@@ -22,14 +22,14 @@ MonoBehaviour:
   - guid: fd067174-d341-49db-b633-aed3094ce552
     targetGuid: f4301420-0450-4165-aa61-b79ab7a45270
     portId: 2
-  - guid: cf7a31a3-1591-46d2-b43b-2bed5aef45a9
-    targetGuid: a4385e4e-0f97-4fbb-b8e5-fb33e09634b2
-    portId: 3
   - guid: a4385e4e-0f97-4fbb-b8e5-fb33e09634b2
     targetGuid: 60afcd65-4ab5-436c-b529-7ec61c99e716
-    portId: 4
+    portId: 3
   - guid: a4385e4e-0f97-4fbb-b8e5-fb33e09634b2
     targetGuid: 51f4c710-7858-4dc8-bd31-3021a8b11b40
+    portId: 4
+  - guid: cf7a31a3-1591-46d2-b43b-2bed5aef45a9
+    targetGuid: a4385e4e-0f97-4fbb-b8e5-fb33e09634b2
     portId: 5
   nodes:
   - guid: f4301420-0450-4165-aa61-b79ab7a45270
@@ -108,44 +108,6 @@ MonoBehaviour:
       serializedVersion: 2
       x: 1352
       y: -771
-      width: 540
-      height: 923
-  - guid: fd067174-d341-49db-b633-aed3094ce552
-    characterSpr: {fileID: 21300000, guid: cb06b2da4706127439cab981157058c8, type: 3}
-    characterPositionOnScreen: {x: 0, y: 0}
-    characterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 1"
-    dialogueText: "\u041F\u0440\u0438\u0432\u0435\u0442!"
-    characterMovement:
-      active: 1
-      movementDirection: {x: 1, y: 0}
-      timeSecondEffect: 5
-      typeMovement: 0
-    characterFade:
-      active: 0
-      timeSecondsEffect: 0
-    characterColor:
-      active: 0
-      color: {r: 1, g: 1, b: 1, a: 1}
-      timeSecondsEffect: 0
-    backgroundSpr: {fileID: 21300000, guid: 5da3ec4ba155b454dab0de4f1cd4f217, type: 3}
-    backgroundColor:
-      active: 0
-      color: {r: 1, g: 1, b: 1, a: 1}
-      timeSecondsEffect: 0
-    backgroundfade:
-      active: 0
-      timeSecondsEffect: 0
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 8300000, guid: f5dbbc814fb28401cadef679a0c58361, type: 3}
-    choiceOptions:
-    - 
-    startNode: 1
-    endNode: 0
-    choices: 1
-    nodePosition:
-      serializedVersion: 2
-      x: 36
-      y: -534
       width: 540
       height: 923
   - guid: a4385e4e-0f97-4fbb-b8e5-fb33e09634b2
@@ -318,5 +280,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 2152
       y: -771
+      width: 540
+      height: 923
+  - guid: fd067174-d341-49db-b633-aed3094ce552
+    characterSpr: {fileID: 21300000, guid: cb06b2da4706127439cab981157058c8, type: 3}
+    characterPositionOnScreen: {x: 0, y: 0}
+    characterName: "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436 1"
+    dialogueText: "\u041F\u0440\u0438\u0432\u0435\u0442!"
+    characterMovement:
+      active: 1
+      movementDirection: {x: 1, y: 0}
+      timeSecondEffect: 5
+      typeMovement: 0
+    characterFade:
+      active: 0
+      timeSecondsEffect: 0
+    characterColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundSpr: {fileID: 21300000, guid: 5da3ec4ba155b454dab0de4f1cd4f217, type: 3}
+    backgroundColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundfade:
+      active: 0
+      timeSecondsEffect: 0
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: f5dbbc814fb28401cadef679a0c58361, type: 3}
+    choiceOptions:
+    - 
+    startNode: 1
+    endNode: 0
+    choices: 1
+    nodePosition:
+      serializedVersion: 2
+      x: -36
+      y: -677
       width: 540
       height: 923

@@ -19,6 +19,18 @@ MonoBehaviour:
   - guid: 894af2eb-7882-49b8-a1f6-7fb0b5f88843
     targetGuid: ce43916b-53e7-4823-8dcf-81267302f07b
     portId: 1
+  - guid: ce43916b-53e7-4823-8dcf-81267302f07b
+    targetGuid: c37120d2-0483-4f8c-aadd-f40b246fbda3
+    portId: 2
+  - guid: c37120d2-0483-4f8c-aadd-f40b246fbda3
+    targetGuid: 258f65e2-f06f-41e7-ab19-485ed0b53055
+    portId: 3
+  - guid: 258f65e2-f06f-41e7-ab19-485ed0b53055
+    targetGuid: 6a05dd1e-8427-43c1-89e9-31fbb19a6a75
+    portId: 4
+  - guid: 6a05dd1e-8427-43c1-89e9-31fbb19a6a75
+    targetGuid: 775de671-30f0-489d-a584-afa25fcc60b2
+    portId: 5
   nodes:
   - guid: c5b5e940-a905-4ebd-8213-f7fbeffd7091
     characterSpr: {fileID: 21300000, guid: 018ef0199038c2240bb2f54f20ac8f83, type: 3}
@@ -131,6 +143,158 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 1505
+      y: -216
+      width: 540
+      height: 923
+  - guid: c37120d2-0483-4f8c-aadd-f40b246fbda3
+    characterSpr: {fileID: 21300000, guid: 018ef0199038c2240bb2f54f20ac8f83, type: 3}
+    characterPositionOnScreen: {x: -580, y: 0}
+    characterName: 
+    dialogueText: 
+    characterMovement:
+      active: 0
+      movementDirection: {x: 0, y: 0}
+      timeSecondEffect: 0
+      typeMovement: 0
+    characterFade:
+      active: 0
+      timeSecondsEffect: 0
+    characterColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundSpr: {fileID: 0}
+    backgroundColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundfade:
+      active: 0
+      timeSecondsEffect: 0
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    choiceOptions:
+    - 
+    startNode: 0
+    endNode: 0
+    choices: 1
+    nodePosition:
+      serializedVersion: 2
+      x: 2245
+      y: -216
+      width: 540
+      height: 923
+  - guid: 258f65e2-f06f-41e7-ab19-485ed0b53055
+    characterSpr: {fileID: 21300000, guid: 018ef0199038c2240bb2f54f20ac8f83, type: 3}
+    characterPositionOnScreen: {x: -580, y: 0}
+    characterName: 
+    dialogueText: 
+    characterMovement:
+      active: 0
+      movementDirection: {x: 0, y: 0}
+      timeSecondEffect: 0
+      typeMovement: 0
+    characterFade:
+      active: 1
+      timeSecondsEffect: -1
+    characterColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundSpr: {fileID: 0}
+    backgroundColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundfade:
+      active: 0
+      timeSecondsEffect: 0
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    choiceOptions:
+    - 
+    startNode: 0
+    endNode: 0
+    choices: 1
+    nodePosition:
+      serializedVersion: 2
+      x: 3015
+      y: -216
+      width: 540
+      height: 923
+  - guid: 6a05dd1e-8427-43c1-89e9-31fbb19a6a75
+    characterSpr: {fileID: 21300000, guid: 018ef0199038c2240bb2f54f20ac8f83, type: 3}
+    characterPositionOnScreen: {x: -580, y: 0}
+    characterName: 
+    dialogueText: 
+    characterMovement:
+      active: 0
+      movementDirection: {x: 0, y: 0}
+      timeSecondEffect: 0
+      typeMovement: 0
+    characterFade:
+      active: 1
+      timeSecondsEffect: 0.5
+    characterColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundSpr: {fileID: 0}
+    backgroundColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundfade:
+      active: 0
+      timeSecondsEffect: 0
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    choiceOptions:
+    - 
+    startNode: 0
+    endNode: 0
+    choices: 1
+    nodePosition:
+      serializedVersion: 2
+      x: 3694
+      y: -216
+      width: 540
+      height: 923
+  - guid: 775de671-30f0-489d-a584-afa25fcc60b2
+    characterSpr: {fileID: 21300000, guid: 018ef0199038c2240bb2f54f20ac8f83, type: 3}
+    characterPositionOnScreen: {x: -580, y: 0}
+    characterName: 
+    dialogueText: 
+    characterMovement:
+      active: 0
+      movementDirection: {x: 0, y: 0}
+      timeSecondEffect: 0
+      typeMovement: 0
+    characterFade:
+      active: 0
+      timeSecondsEffect: 0
+    characterColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundSpr: {fileID: 0}
+    backgroundColor:
+      active: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+      timeSecondsEffect: 0
+    backgroundfade:
+      active: 0
+      timeSecondsEffect: 0
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    choiceOptions:
+    - 
+    startNode: 0
+    endNode: 1
+    choices: 1
+    nodePosition:
+      serializedVersion: 2
+      x: 4400
       y: -216
       width: 540
       height: 923

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c7ff0c-445c-45e8-9ce1-0d9d07e614a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NovelTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NovelTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NovelTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NovelTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VNCreator/Behaviors/VNCreator_DisplayUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VNCreator/Behaviors/VNCreator_DisplayUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DialogScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DialogScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestStory/Dialog/Character1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestStory/Dialog/Character1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestStory/Dialog/Character2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestStory/Dialog/Character2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestStory/Story.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestStory/Story.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Graph/Node/BaseNodeTemplate.uxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
+            <state relative-caret-position="935">
               <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
             </state>
           </provider>
@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Behaviors/VNCreator_DisplayUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2434">
-              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            <state relative-caret-position="82">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
               <folding>
                 <marker date="1682910208806" expanded="false" signature="6:114" ph="..." />
                 <marker date="1682910208806" expanded="true" signature="136:7283" ph="{...}" />
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Misc/DisplayBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="-71">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <marker date="1651745442000" expanded="false" signature="6:97" ph="..." />
                 <marker date="1651745442000" expanded="true" signature="118:1739" ph="{...}" />
@@ -100,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Data/NodeData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="646">
               <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
               <folding>
                 <marker date="1682905178637" expanded="false" signature="6:99" ph="..." />
@@ -123,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Windows/StoryObjectEditorWindow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="102">
               <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <marker date="1651745443000" expanded="false" signature="6:98" ph="..." />
@@ -142,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Data/SaveUtility.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="272">
               <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <marker date="1682904513582" expanded="false" signature="6:243" ph="..." />
@@ -169,7 +169,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Data/StoryObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="136">
               <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
               <folding>
                 <marker date="1651745438000" expanded="false" signature="6:52" ph="..." />
@@ -190,10 +190,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Behaviors/Effector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="340">
               <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <marker date="1682906381151" expanded="false" signature="6:59" ph="..." />
@@ -215,22 +215,69 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Graph/Node/BaseNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <marker date="1682905167669" expanded="false" signature="6:254" ph="..." />
+                <marker date="1682905167669" expanded="true" signature="282:10211" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="334:583" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="450:577" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="628:10202" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="700:10196" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="1584:1820" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="2062:2169" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="2299:2348" ph="/* ... */" />
+                <marker date="1682905167669" expanded="true" signature="2633:2756" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="3057:3179" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="3435:3550" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="3804:3925" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="4691:4807" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="4968:5098" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="5169:5293" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="5834:5942" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="6009:6126" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="6154:6407" ph="/* БЭКГРАУНД ... */" />
+                <marker date="1682905167669" expanded="true" signature="6656:6774" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="7016:7127" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="7366:7483" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="7511:7537" ph="/* FADE ... */" />
+                <marker date="1682905167669" expanded="true" signature="7915:8019" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="8081:8194" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="8472:8578" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="8879:8986" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="9295:9406" ph="{...}" />
+                <marker date="1682905167669" expanded="true" signature="9932:10171" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../7atm/Assets/Scripts/ScriptableObjects/ColorPlayerData.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Misc/DisplayBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Windows/StoryObjectEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Novel/Assets/Scripts/Test.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Behaviors/VNCreator_DisplayUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Behaviors/Effector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../7atm/Assets/Scripts/ScriptableObjects/ColorPlayerData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Data/NodeData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Graph/Node/BaseNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Data/SaveUtility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Windows/StoryObjectEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E921654D-D24F-45A4-94E4-D0E6E3FB1580/c5/fda8b840/Node.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/ScenePropertyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Misc/DisplayBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Windows/StoryObjectEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Data/StoryObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Graph/ExtendedGraphView.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -248,11 +295,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="298" />
-    <option name="y" value="202" />
-    <option name="width" value="1472" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -260,11 +307,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -323,6 +365,11 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,12 +421,14 @@
       <workItem from="1682899524613" duration="239000" />
       <workItem from="1682899876522" duration="23000" />
       <workItem from="1682900007485" duration="132000" />
-      <workItem from="1682900217091" duration="10014000" />
+      <workItem from="1682900217091" duration="10560000" />
+      <workItem from="1683217494257" duration="632000" />
+      <workItem from="1684010852094" duration="459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14397000" />
+    <option name="totallyTimeSpent" value="16034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,10 +440,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16897655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13006397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -509,26 +558,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Windows/StoryObjectEditorWindow.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E921654D-D24F-45A4-94E4-D0E6E3FB1580/c5/fda8b840/Node.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <marker date="1651745443000" expanded="false" signature="6:98" ph="..." />
-            <marker date="1651745443000" expanded="true" signature="127:2278" ph="{...}" />
-            <marker date="1651745443000" expanded="true" signature="202:2269" ph="{...}" />
-            <marker date="1651745443000" expanded="true" signature="433:705" ph="{...}" />
-            <marker date="1651745443000" expanded="true" signature="748:1784" ph="{...}" />
-            <marker date="1651745443000" expanded="true" signature="790:1774" ph="{...}" />
-            <marker date="1651745443000" expanded="true" signature="1829:2263" ph="{...}" />
-            <marker date="1651745443000" expanded="true" signature="2080:2204" ph="{...}" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Graph/Node/BaseNodeTemplate.uxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Data/NodeData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="646">
           <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
           <folding>
             <marker date="1682905178637" expanded="false" signature="6:99" ph="..." />
@@ -547,9 +593,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Windows/StoryObjectEditorWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <marker date="1651745443000" expanded="false" signature="6:98" ph="..." />
+            <marker date="1651745443000" expanded="true" signature="127:2278" ph="{...}" />
+            <marker date="1651745443000" expanded="true" signature="202:2269" ph="{...}" />
+            <marker date="1651745443000" expanded="true" signature="433:705" ph="{...}" />
+            <marker date="1651745443000" expanded="true" signature="748:1784" ph="{...}" />
+            <marker date="1651745443000" expanded="true" signature="790:1774" ph="{...}" />
+            <marker date="1651745443000" expanded="true" signature="1829:2263" ph="{...}" />
+            <marker date="1651745443000" expanded="true" signature="2080:2204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Data/SaveUtility.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="272">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
             <marker date="1682904513582" expanded="false" signature="6:243" ph="..." />
@@ -572,17 +635,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Graph/Node/BaseNodeTemplate.uxml">
+    <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Data/StoryObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+          <folding>
+            <marker date="1651745438000" expanded="false" signature="6:52" ph="..." />
+            <marker date="1651745438000" expanded="true" signature="73:1849" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="193:1847" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="377:712" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="476:542" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="636:702" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="752:1042" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="812:953" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="866:939" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="1102:1314" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="1162:1278" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="1437:1841" ph="{...}" />
+            <marker date="1651745438000" expanded="true" signature="1541:1666" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Behaviors/Effector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <marker date="1682906381151" expanded="false" signature="6:59" ph="..." />
+            <marker date="1682906381151" expanded="true" signature="98:1326" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="163:233" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="300:511" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="328:434" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="447:505" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="614:1107" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="735:779" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="810:853" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="883:926" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="957:1000" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="1160:1324" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="1188:1252" ph="{...}" />
+            <marker date="1682906381151" expanded="true" signature="1265:1318" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Editor/Graph/Node/BaseNode.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        <state relative-caret-position="119">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <marker date="1682905167669" expanded="false" signature="6:254" ph="..." />
             <marker date="1682905167669" expanded="true" signature="282:10211" ph="{...}" />
@@ -617,32 +718,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Data/StoryObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-          <folding>
-            <marker date="1651745438000" expanded="false" signature="6:52" ph="..." />
-            <marker date="1651745438000" expanded="true" signature="73:1849" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="193:1847" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="377:712" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="476:542" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="636:702" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="752:1042" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="812:953" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="866:939" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="1102:1314" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="1162:1278" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="1437:1841" ph="{...}" />
-            <marker date="1651745438000" expanded="true" signature="1541:1666" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../7atm/Assets/Scripts/ScriptableObjects/ColorPlayerData.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Behaviors/VNCreator_DisplayUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2434">
-          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        <state relative-caret-position="82">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding>
             <marker date="1682910208806" expanded="false" signature="6:114" ph="..." />
             <marker date="1682910208806" expanded="true" signature="136:7283" ph="{...}" />
@@ -687,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Misc/DisplayBase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="-71">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <marker date="1651745442000" expanded="false" signature="6:97" ph="..." />
             <marker date="1651745442000" expanded="true" signature="118:1739" ph="{...}" />
@@ -702,29 +784,6 @@
             <marker date="1651745442000" expanded="true" signature="1188:1390" ph="{...}" />
             <marker date="1651745442000" expanded="true" signature="1443:1636" ph="{...}" />
             <marker date="1651745442000" expanded="true" signature="1667:1731" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/VNCreator/Behaviors/Effector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <marker date="1682906381151" expanded="false" signature="6:59" ph="..." />
-            <marker date="1682906381151" expanded="true" signature="98:1326" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="163:233" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="300:511" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="328:434" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="447:505" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="614:1107" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="735:779" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="810:853" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="883:926" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="957:1000" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="1160:1324" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="1188:1252" ph="{...}" />
-            <marker date="1682906381151" expanded="true" signature="1265:1318" ph="{...}" />
           </folding>
         </state>
       </provider>

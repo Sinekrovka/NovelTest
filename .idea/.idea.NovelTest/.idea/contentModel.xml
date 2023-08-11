@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Animations" t="Include" />
         <e p="AssetsForTA" t="Include">
           <e p="Characters" t="Include" />
           <e p="Fantasy Forests" t="Include" />
@@ -42,7 +43,9 @@
         <e p="Resources" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="SD Sound Track - A Childs Dream" t="Include" />
-        <e p="TestStory" t="Include" />
+        <e p="TestStory" t="Include">
+          <e p="Dialog" t="Include" />
+        </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />
           <e p="Examples &amp; Extras" t="Include">
@@ -181,6 +184,14 @@
           </e>
           <e p="VNCreator.asmdef" t="Include" />
         </e>
+        <e p="VNT" t="Include">
+          <e p="Behaviours" t="Include" />
+          <e p="Data" t="Include" />
+          <e p="Editor" t="Include" />
+          <e p="Misc" t="Include" />
+          <e p="Models" t="Include" />
+          <e p="VNT.asmdef" t="Include" />
+        </e>
       </e>
       <e p="DOTween.Modules.csproj" t="IncludeRecursive" />
       <e p="Library" t="ExcludeRecursive" />
@@ -191,6 +202,7 @@
         <e p="Bin" t="ExcludeRecursive" />
       </e>
       <e p="VNCreator.csproj" t="IncludeRecursive" />
+      <e p="VNT.csproj" t="IncludeRecursive" />
     </e>
     <e p="E:\Users\sine\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="E:\Users\sine\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_NovelTest.63783977.00" t="ExcludeRecursive" />
